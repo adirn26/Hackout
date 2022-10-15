@@ -86,5 +86,35 @@
        
        
       
+    ],
+    "WorkshopCard":[
+        {
+            "id":"1",
+            "icon":"supplychain.jpeg",
+            "heading":"Supply Chain",
+            "description":"To help develop supply chain stratergies that fulfill the customers needs at..",
+            "link":"https://nptel.ac.in/courses/110107074"
+        },
+        {
+            "id":"2",
+            "icon":"dataanalytics.jpeg",
+            "heading":"Become a Data Analyst",
+            "description":"You'll need skills in math, statistics, communicayions, and working with tools designed to do data analytics and data vi..",
+            "link":"https://www.linkedin.com/learning/paths/become-a-data-analyst"
+        },
+        {
+            "id":"3",
+            "icon":"softskills.jpeg",
+            "heading":"Enhancing Soft Skills & Personality",
+            "description":"The course aims at all-round development of soft skills and ..",
+            "link":"https://nptel.ac.in/courses/109104107"
+        },
+        {
+            "id":"4",
+            "icon":"marketing.png",
+            "heading":"Inbound Marketing",
+            "description":"Learn inboud Marketing techniques that range from content creation to social promotion and more",
+            "link":"https://academy.hubspot.com/courses/inbound-marketing?library=true"
+        }
     ]
 }
