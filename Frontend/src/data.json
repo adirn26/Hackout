@@ -1,0 +1,90 @@
+{
+ 
+    "StartJourney": [
+        {
+            "id":"1",
+            "title":"Idea",
+            "icon":"idea.png",
+            "content":"All it takes is a million dollar idea, a vision and mission!Then boom, they can start taking themselves through these building blocks"
+        },
+        {
+            "id":"2",
+            "title":"Research",
+            "icon":"step2.png",
+            "content":"Detailed research about trends in market, finance and human psychology is a very crucia step."
+
+        },
+        
+        {
+            "id":"3",
+            "title":"Investment",
+            "icon":"investment.png",
+            "content":"Pitch in your idea and convince investors, capitalists and the crowd to fund your startup!Entrepreneurs need to be looking at a six-month time frame for a business plan"
+        },
+        {
+            "id":"4",
+            "title":"Promotion",
+            "icon":"promotion.png",
+            "content":"Execute your idea with your dream team,have a vision for the business and grow it and scale it by promoting and marketing effectively."
+
+        },
+        {
+            "id":"5",
+            "title":"Success",
+            "icon":"success.png",
+            "content":"Enjoy the success, enhance and build your business and make a difference by contributing back to the society."
+
+        }
+      
+    ],
+    "HackathonCard": [
+        {
+            "id":"1",
+            "title":"Urban Monkey",
+            "icon":"urbanmonkey.jpg",
+            "domain":"Fashion",
+            "funded":"40",
+            "raised":"8700",
+            "description":"New Age Indian Streetwear Unisex Clothing Brand for Men & Women in India."
+            
+
+        },
+        {
+            "id":"2",
+            "title":"Urban matrix",
+            "icon":"urbanmatrix.jpg",
+            "domain":"Tech",
+            "funded":"11",
+            "raised":"9000",
+            "description":"Ensuring seamless integration of aerial data within your workflow."
+            
+
+        },
+        
+        {
+            "id":"3",
+            "title":"Zerodha",
+            "icon":"zerodha.jpg",
+            "domain":"FinTech",
+            "funded":"80",
+            "raised":"80000",
+            "description":"Online stock trading at lowest prices from India's biggest stock broker."
+            
+
+        },
+        {
+            "id":"4",
+            "title":"Zerodha",
+            "icon":"zerodha.jpg",
+            "domain":"FinTech",
+            "funded":"80",
+            "raised":"80000",
+            "description":"Online stock trading at lowest prices from India's biggest stock broker."
+            
+
+        }
+       
+       
+      
+    ]
+}
