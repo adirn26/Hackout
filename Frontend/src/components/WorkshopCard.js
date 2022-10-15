@@ -1,7 +1,7 @@
 import data from '../data.json'
 import {Link} from 'react-router-dom'
-function HackathonCard() {
-    const Card = data.HackathonCard
+function WorkshopCard() {
+    const Card = data.WorkshopCard
 
     return (
         Card.map((record,i)=> 
@@ -13,13 +13,11 @@ function HackathonCard() {
 <div class="card-body" style={{padding:"20px"}}>
    <center>
 
-<h4 > {record.title}</h4>
+<h4 > {record.heading}</h4>
 <p style={{textAlign:"left"}}>{record.description}</p>
-
-   <div class="tag tag-teal" style={{backgroundColor:"#162432",borderColor:"black",color:"white",padding:"4px"}}>Domain: {record.domain}</div>
-   <div><h4 ><pre>Funded:{record.funded}%   Raised:${record.raised}</pre></h4></div>
+   
  <br/>
- <Link to="/fundstartup"><button class="button-37" role="button"  style={{backgroundColor:"#162432",color:"white",padding:"10px"}}>Fund now!</button></Link>
+ <a href={record.link}><button class="button-37" role="button"  style={{backgroundColor:"#162432",color:"white",padding:"10px"}}>Explore now!</button></a>
  </center>
    </div>
 </div>    
@@ -27,4 +25,4 @@ function HackathonCard() {
         )
 }
      
-  export default HackathonCard
+  export default WorkshopCard
