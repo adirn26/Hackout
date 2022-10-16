@@ -19,7 +19,7 @@ function HackathonCard() {
    <div class="tag tag-teal" style={{backgroundColor:"#162432",borderColor:"black",color:"white",padding:"4px"}}>Domain: {record.domain}</div>
    <div><h4 ><pre>Funded:{record.funded}%   Raised:${record.raised}</pre></h4></div>
  <br/>
- <Link to="/fundstartup"><button class="button-37" role="button"  style={{backgroundColor:"#162432",color:"white",padding:"10px"}}>Fund now!</button></Link>
+ <Link to="/Payment"><button class="button-37" role="button"  style={{backgroundColor:"#162432",color:"white",padding:"10px"}}>Fund now!</button></Link>
  </center>
    </div>
 </div>    
