@@ -8,6 +8,8 @@ import HomePage from './HomePage.js'
 import Workshop from './Workshop'
 import Networking from './Networking'
 import FundStartUp from './FundStartUp'
+import Register from './Register'
+import Login from './Login'
 
 function AppRouter() {
   return (
@@ -15,6 +17,8 @@ function AppRouter() {
     <Routes>
     
         <Route path="/home" element={<HomePage/>}/>
+        <Route path="/signup" element={<Register></Register>}/>
+        <Route path="/login" element={<Login></Login>}/>
         <Route path="/getfunding" element={<GetFunding/>}/>
         <Route path="/startjourney" element={<StartJourney/>}/>
         <Route path="/workshop" element={<Workshop/>}/>
