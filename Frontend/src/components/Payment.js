@@ -57,7 +57,7 @@ function Payment() {
         }
         existingPaymentMethodRequired='false'
         buttonColor='black'
-        buttonType='Buy'
+        buttonType='pay'
       />
     </div>
     
