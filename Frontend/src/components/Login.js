@@ -4,11 +4,16 @@ import axios from 'axios'
 import { Form, Button } from 'react-bootstrap';
 import './Login.css';
 
+
+
 const Login = () => {
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
   const [emailError, setEmailError] = useState('');
+  const [islogin, setislogin] = useState()
   const [passwordError, setPasswordError] = useState('');
+  const storedJwt = localStorage.getItem('access_token');
+  const [jwt, setJwt] = useState(storedJwt || null);
   const navigate = useNavigate();
 
   const loginUser = async (e) => {
@@ -18,8 +23,16 @@ const Login = () => {
         password: password
     }).then(res => {
         console.log(res)
+        localStorage.setItem('access_token', res.token);
+        setJwt(res.token);
+        if(res.status == 404){
+            alert("User not found!")
+        }
         navigate('/home')
     }).catch(err => {
+        if(err.response.status == 404){
+            alert("User not found!")
+        }
         console.log(err)
     })
   };

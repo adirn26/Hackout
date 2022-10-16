@@ -4,6 +4,7 @@ const mongoose = require("mongoose")
 const cookieParser = require('cookie-parser');
 const userRouter = require("./routes/user");
 const authRouter = require("./routes/auth");
+const cors = require('cors')
 const app = express()
 dotenv.config()
 
@@ -18,7 +19,7 @@ const connectdb = async () => {
     }
 }
 
-
+app.use(cors())
 app.use(express.json())
 app.use (cookieParser());
 app.use("/api/auth", authRouter)
