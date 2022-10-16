@@ -10,7 +10,7 @@ import Networking from './Networking'
 import FundStartUp from './FundStartUp'
 import Register from './Register'
 import Login from './Login'
-
+import Payment from './Payment'
 function AppRouter() {
   return (
     <BrowserRouter>
@@ -24,6 +24,7 @@ function AppRouter() {
         <Route path="/workshop" element={<Workshop/>}/>
         <Route path="/fundstartup" element={<FundStartUp/>}/>
         <Route path="/networking" element={<Networking/>}/>
+        <Route path="/payment" element={<Payment/>}/>
     </Routes>
     </BrowserRouter>
    
